@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShiningJerry's page</title>
+</head>
+    <style>
+        *{
+            margin: 0  auto;
+            padding: 0 auto;
+        }
+        body {
+            background-image: url(imgs/bg-2.jpg);
+            background-position:top  center;
+            background-repeat: no-repeat;
+        }
+        ul {
+            list-style: none;
+        }
+        .head {
+            height: 80px;
+            width: 100%;
+            line-height: 80px;
+            text-align: center;
+            font-size: 40px;
+            color: rgb(129, 137, 141);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .center {
+            width: 1200px;
+            height: 800px;
+            background-color: #c8c4d3;
+            border-radius: 10px;
+            opacity: .5;
+            text-align: center;
+        }
+        .center .center_left {
+            /* display: inline-block; */
+            float: left;
+            width: 300px;
+            height: 100%;
+            border-right: 5px solid  rgba(241, 221, 236, 0.666);
+            /* border-color: */
+            /* background-color: aquamarine; */
+        }
+        .center .center_right {
+            float: right;
+            width: 895px;
+            height: 100%;
+            /* background-color:pink; */
+        }
+        .center .center_left  .photo{
+            float: left;
+            width: 100%;
+            height: 300px;
+            background-color: bisque;
+            border-radius: 50% 50%;
+            background-image: url(imgs/photo.webp);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+
+        }
+        .center .center_left .profile {
+            float: left;
+            width: 100%;
+            height: 500px;
+            /* background-color: blue; */
+        }
+        .center .center_left .profile ul {
+            margin:  0 0;
+            padding: 0 0 ;
+            width: 300px;
+            height: 500px;
+        }
+        .center .center_left .profile li {
+                float: left;
+                margin-left: 20px;
+                margin-right: 20px;
+                width: 260px;
+                height: 50px;
+                margin-top: 10px;
+                line-height: 50px;
+                font-size: 24px;
+                text-align: left;
+                border-bottom: 1px solid ;
+                border-color: #c8c4d3;
+                color: #000;
+                /* background-color: blueviolet; */
+        }
+        .center .center_left .profile li:hover {
+            opacity: .8;
+            border-bottom: 1px solid black;
+            transition: .4s;
+        }
+        .center .center_right .hobby {
+            margin-top: 40px;
+        }
+        .center .center_right .hobby p {
+            font-size: 24px;
+            text-align: left;
+            margin-top: 20px;
+            height: 30px;
+            padding: 0 50px;
+        }
+        hr {
+            color: antiquewhite;
+            margin: 0 20px;
+            height: 3px;
+        }
+        .center_right .link {
+            padding-top: 25px;
+            margin-left: 50px;
+            text-align: left;
+        }
+        .link .link_div {
+            margin-top: 80px;
+        }
+        .link span {
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin: 0 20px;
+            text-align: center;
+            line-height: 100px;
+        }
+        .link span a img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+<body>
+    <div class="head">
+        Welcome to Jerry's page!
+    </div>
+   <div class="center">
+        <div class="center_left">
+            <div class="photo">
+            </div>
+            <div class="profile">
+                <ul>
+                    <li>name:   Jerry</li>
+                    <li>gender:   male</li>
+                    <li>age:         20</li>
+                    <li>school: AHNU</li>
+                    <li>email: 2690368931@qq.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="center_right">
+                <div class="hobby">
+                        <p>birthday: &nbsp;&nbsp;2002/09/24</p>
+                        <p>mbti:&nbsp;&nbsp;INFP</p>
+                        <p>constellation: &nbsp;&nbsp;Libra</p>
+                        <p>hobby: &nbsp;&nbsp;reading,coding,baseketball,games</p>
+                        <p>favourite singer:    &nbsp;&nbsp;Avril levigin , Eminem</p>
+                        <p>motto:&nbsp;&nbsp;Do not go gentle into that good night.</p>
+                        <p>address:&nbsp;&nbsp; AnHui China</p>
+                </div>
+                <hr>
+                <div class="link">
+                        <h1>MySpaces</h3>
+                        <div class="link_div">
+                            <span class="bilibili">
+                                <a href="https://space.bilibili.com/498297350?spm_id_from=333.1007.0.0" target="_blank">
+                                <img src="imgs/bilibili.ico" alt="">
+                                </a>
+
+
+                            </span>
+                            <span class="csdn">
+                                <a href="https://blog.csdn.net/qq_61832249?spm=1000.2115.3001.5343" target="_blank">
+                                    <img src="imgs/csdn.ico" alt="">
+                                </a>
+                            </span>
+                            <span class="lg">
+                                <a href="https://www.luogu.com.cn/user/644998" target="_blank">
+                                    <img src="imgs/lg.ico" alt="">
+                                </a>
+                            </span>
+                    </div>
+                </div>
+        </div>
+   </div>
+    
+</body>
+</html>
